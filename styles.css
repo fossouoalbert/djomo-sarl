@@ -110,7 +110,7 @@ textarea {
   place-items: center;
   position: relative;
   padding: 110px 32px 60px;
-  background-image: linear-gradient(180deg, rgba(8, 8, 8, 0.82), rgba(8, 8, 8, 0.82)), url('img/webaliser-_TPTXZd9mOo-unsplash.jpg');
+  background-image: linear-gradient(180deg, rgba(8, 8, 8, 0.82), rgba(8, 8, 8, 0.82)), url('webaliser-_TPTXZd9mOo-unsplash.jpg');
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -262,7 +262,7 @@ textarea {
 
 .about-visual .image-card {
   min-height: 420px;
-  background-image: url('img/brian-babb-XbwHrt87mQ0-unsplash.jpg');
+  background-image: url('brian-babb-XbwHrt87mQ0-unsplash.jpg');
   background-size: cover;
   background-position: center;
   border-radius: 32px;
@@ -333,7 +333,7 @@ textarea {
   min-height: 180px;
   border-radius: 22px;
   background: linear-gradient(135deg, rgba(255, 122, 0, 0.12), 
-  rgba(255, 255, 255, 0.06)), url('img/frames-for-your-heart-mR1CIDduGLc-unsplash.jpg');
+  rgba(255, 255, 255, 0.06)), url('frames-for-your-heart-mR1CIDduGLc-unsplash.jpg');
   background-size: cover;
   background-position: center;
   transition: transform 0.35s ease;
@@ -368,7 +368,7 @@ textarea {
 
 .portfolio-image {
   min-height: 340px;
-  background-image: url('img/frames-for-your-heart-mR1CIDduGLc-unsplash.jpg');
+  background-image: url('frames-for-your-heart-mR1CIDduGLc-unsplash.jpg');
   background-position: center;
   background-size: cover;
   transition: transform 350ms ease;
@@ -379,11 +379,11 @@ textarea {
 }
 
 .portfolio-card.image-2 .portfolio-image {
-  background-image: url('img/frames-for-your-heart-mR1CIDduGLc-unsplash.jpg');
+  background-image: url('frames-for-your-heart-mR1CIDduGLc-unsplash.jpg');
 }
 
 .portfolio-card.image-3 .portfolio-image {
-  background-image: url('img/frames-for-your-heart-mR1CIDduGLc-unsplash.jpg');
+  background-image: url('frames-for-your-heart-mR1CIDduGLc-unsplash.jpg');
 }
 
 .portfolio-info {
