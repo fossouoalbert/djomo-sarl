@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DJOMO SARL | Génie Civil</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.css" />
+</head>
+<body>
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-content">
+      <div class="loader-logo">DJOMO</div>
+      <div class="loader-bar">
+        <span id="loaderProgress"></span>
+      </div>
+      <p>Chargement du site...</p>
+    </div>
+  </div>
+
+  <header class="topbar">
+    <div class="brand">DJOMO SARL</div>
+    <nav>
+      <a href="#accueil">Accueil</a>
+      <a href="#services">Services</a>
+      <a href="#realisations">Réalisations</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-alt" href="https://wa.me/676332044" target="_blank">WhatsApp</a>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="hero-overlay"></div>
+      <div class="hero-copy" data-aos="fade-up" data-aos-duration="1200">
+        <span class="eyebrow">Génie civil & construction</span>
+        <h1><span class="hero-highlight">DJOMO SARL</span> : Construire avec précision, livrer avec excellence</h1>
+        <p>DJOMO SARL à Yassa-Douala, Cameroun, allie expérience, sécurité et qualité pour vos projets de bâtiment, travaux publics et rénovation.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">Demander un devis</a>
+          <a class="btn btn-secondary" href="#realisations">Voir nos projets</a>
+        </div>
+      </div>
+      <div class="hero-stats" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="300">
+        <div class="stat-card">
+          <strong data-target="50">0</strong>
+          <span>Projets</span>
+        </div>
+        <div class="stat-card">
+          <strong data-target="10">0</strong>
+          <span>Années d'expérience</span>
+        </div>
+        <div class="stat-card">
+          <strong data-target="100">0</strong>
+          <span>Clients satisfaits%</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container grid-two">
+        <div class="about-text" data-aos="fade-right">
+          <span class="section-label">À propos</span>
+          <h2>DJOMO SARL, expert en génie civil</h2>
+          <p>Nous réalisons des ouvrages durables avec une équipe qualifiée, des certifications strictes et un engagement total envers la sécurité et les délais.</p>
+          <ul class="features-list">
+            <li>👷‍♂️ Équipe sénior dédiée</li>
+            <li>📜 Certifications construction & sécurité</li>
+            <li>⏱️ Respect du planning et du budget</li>
+            <li>🏗️ Satisfaction client prioritaire</li>
+          </ul>
+        </div>
+        <div class="about-visual" data-aos="fade-left">
+          <div class="image-card parallax-card">
+            <div class="image-label">Chantier en cours</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-label">Services</span>
+        <h2>Nos domaines d'expertise</h2>
+      </div>
+      <div class="service-grid">
+        <article class="service-card" data-aos="zoom-in" data-aos-delay="100">
+          <div class="service-icon">🏢</div>
+          <h3>Construction de bâtiments</h3>
+          <p>Réalisations résidentielles, commerciales et industrielles avec une exécution rigoureuse et des finitions soignées.</p>
+          <div class="service-image"></div>
+        </article>
+        <article class="service-card" data-aos="zoom-in" data-aos-delay="200">
+          <div class="service-icon">🚧</div>
+          <h3>Travaux publics</h3>
+          <p>Voirie, profils d'eau, infrastructures, réseaux et aménagement urbain avec une priorité sur la durabilité.</p>
+          <div class="service-image"></div>
+        </article>
+        <article class="service-card" data-aos="zoom-in" data-aos-delay="300">
+          <div class="service-icon">🛠️</div>
+          <h3>Génie civil</h3>
+          <p>Ouvrages d'art, fondations, bassins et structures lourdes conçus selon les normes les plus exigeantes.</p>
+          <div class="service-image"></div>
+        </article>
+        <article class="service-card" data-aos="zoom-in" data-aos-delay="400">
+          <div class="service-icon">🔧</div>
+          <h3>Rénovation</h3>
+          <p>Rénovations complètes ou partielles avec une approche respectueuse des besoins clients et des contraintes existantes.</p>
+          <div class="service-image"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section portfolio" id="realisations">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-label">Réalisations</span>
+        <h2>Projets récents et témoignages visuels</h2>
+      </div>
+      <div class="portfolio-grid">
+        <article class="portfolio-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="portfolio-image"></div>
+          <div class="portfolio-info">
+            <h3>Avant / Après</h3>
+            <p>Réhabilitation d'un bâtiment commercial avec renforcement structurel.</p>
+            <span>Abidjan, Côte d'Ivoire</span>
+          </div>
+        </article>
+        <article class="portfolio-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="portfolio-image image-2"></div>
+          <div class="portfolio-info">
+            <h3>Travaux publics</h3>
+            <p>Aménagement de voirie, drainage et terrassement sur site urbain.</p>
+            <span>Yamoussoukro</span>
+          </div>
+        </article>
+        <article class="portfolio-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="portfolio-image image-3"></div>
+          <div class="portfolio-info">
+            <h3>Ouvrage d'art</h3>
+            <p>Construction d'une structure en béton armé pour passage piéton.</p>
+            <span>San Pedro</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container grid-two-reverse">
+        <div class="contact-card" data-aos="fade-right">
+          <span class="section-label">Contact</span>
+          <h2>Parlez-nous de votre projet</h2>
+          <p>Remplissez le formulaire ou contactez-nous directement par WhatsApp pour un devis rapide.</p>
+          <div class="contact-meta">
+            <div>
+              <strong>Email</strong>
+              <p>contact@djomosarl.ci</p>
+            </div>
+            <div>
+              <strong>Téléphone</strong>
+              <p>+237 676 33 20 44</p>
+            </div>
+          </div>
+          <a class="btn btn-primary" href="https://wa.me/237676332044" target="_blank">Envoyer un message WhatsApp</a>
+        </div>
+<form class="contact-form" id="contactForm" data-aos="fade-left">
+
+  <label>Nom complet</label>
+  <input type="text" id="nom" placeholder="Votre nom" required />
+
+  <label>Email</label>
+  <input type="email" id="email" placeholder="Votre adresse email" required />
+
+  <label>Projet</label>
+  <textarea rows="5" id="projet" placeholder="Décrivez votre besoin" required></textarea>
+
+  <button class="btn btn-secondary" type="submit">Envoyer</button>
+
+</form>
+      </div>
+      <div class="map-frame" data-aos="fade-up" data-aos-delay="200">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.111111111111!2d9.688555!3d4.068333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10610f9800000001%3A0x0000000000000000!2sYassa%2C%20Douala%2C%20Cameroun!5e0!3m2!1sfr!2scm!4v1710000000000" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 DJOMO SARL | Génie civil, construction et travaux publics</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@3.0.0-beta.6/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
