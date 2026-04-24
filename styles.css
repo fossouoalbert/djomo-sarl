@@ -98,13 +98,19 @@ textarea {
   border-color: rgba(255, 255, 255, 0.12);
 }
 
+
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
 .hero {
   min-height: calc(100vh - 90px);
   display: grid;
   place-items: center;
   position: relative;
   padding: 110px 32px 60px;
-  background-image: linear-gradient(180deg, rgba(8, 8, 8, 0.82), rgba(8, 8, 8, 0.82)), url('https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1500&q=80');
+  background-image: linear-gradient(180deg, rgba(8, 8, 8, 0.82), rgba(8, 8, 8, 0.82)), url('img/webaliser-_TPTXZd9mOo-unsplash.jpg');
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -256,7 +262,7 @@ textarea {
 
 .about-visual .image-card {
   min-height: 420px;
-  background-image: url('https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80');
+  background-image: url('img/brian-babb-XbwHrt87mQ0-unsplash.jpg');
   background-size: cover;
   background-position: center;
   border-radius: 32px;
@@ -326,7 +332,8 @@ textarea {
   flex: 1;
   min-height: 180px;
   border-radius: 22px;
-  background: linear-gradient(135deg, rgba(255, 122, 0, 0.12), rgba(255, 255, 255, 0.06)), url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=900&q=80');
+  background: linear-gradient(135deg, rgba(255, 122, 0, 0.12), 
+  rgba(255, 255, 255, 0.06)), url('img/frames-for-your-heart-mR1CIDduGLc-unsplash.jpg');
   background-size: cover;
   background-position: center;
   transition: transform 0.35s ease;
@@ -361,7 +368,7 @@ textarea {
 
 .portfolio-image {
   min-height: 340px;
-  background-image: url('https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=1200&q=80');
+  background-image: url('img/frames-for-your-heart-mR1CIDduGLc-unsplash.jpg');
   background-position: center;
   background-size: cover;
   transition: transform 350ms ease;
@@ -372,11 +379,11 @@ textarea {
 }
 
 .portfolio-card.image-2 .portfolio-image {
-  background-image: url('https://images.unsplash.com/photo-1563298723-dcfebaa392e3?auto=format&fit=crop&w=1200&q=80');
+  background-image: url('img/frames-for-your-heart-mR1CIDduGLc-unsplash.jpg');
 }
 
 .portfolio-card.image-3 .portfolio-image {
-  background-image: url('https://images.unsplash.com/photo-1481277542470-605612bd2d61?auto=format&fit=crop&w=1200&q=80');
+  background-image: url('img/frames-for-your-heart-mR1CIDduGLc-unsplash.jpg');
 }
 
 .portfolio-info {
@@ -530,4 +537,51 @@ footer {
   .hero {
     padding: 100px 20px 60px;
   }
+}
+
+
+.experts-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.expert-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  padding: 18px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.expert-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.expert-img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 18px;
+  margin-bottom: 16px;
+  transition: transform 0.3s ease;
+}
+
+.expert-card:hover .expert-img {
+  transform: scale(1.05);
+}
+
+.expert-card h3 {
+  margin: 10px 0 6px;
+  color: #fff;
+}
+
+.expert-card p {
+  color: #bdbdbd;
+  font-size: 0.95rem;
+  line-height: 1.5;
 }
