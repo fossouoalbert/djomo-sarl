@@ -104,7 +104,7 @@ if (form) {
     const email = document.getElementById("email").value;
     const projet = document.getElementById("projet").value;
 
-    const numero = "237676393943";
+    const numero = "237676332044";
 
     const message = `
 🏗️ DJOMO SARL - Nouvelle demande
