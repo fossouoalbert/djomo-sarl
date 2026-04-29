@@ -724,54 +724,60 @@ footer {
   }
 }
 
+/* SECTION *//* SECTION */
+.experts {
+  padding: 60px 20px;
+}
 
+/* HEADER */
+.section-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-label {
+  color: orange;
+  font-weight: bold;
+}
+
+/* GRID */
 .experts-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
+  grid-template-columns: 1fr;
+  gap: 16px;
   max-width: 1200px;
   margin: auto;
 }
 
+/* CARD */
 .expert-card {
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 24px;
-  padding: 18px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 16px;
   text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.expert-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
-}
-
+/* IMAGE */
 .expert-img {
   width: 100%;
-  height: 240px;
+  height: 180px;
   object-fit: cover;
-  border-radius: 18px;
-  margin-bottom: 16px;
-  transition: transform 0.3s ease;
+  border-radius: 12px;
 }
 
-.expert-card:hover .expert-img {
-  transform: scale(1.05);
+/* TABLETTE */
+@media (min-width: 576px) {
+  .experts-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
-.expert-card h3 {
-  margin: 10px 0 6px;
-  color: #fff;
+/* DESKTOP */
+@media (min-width: 992px) {
+  .experts-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
-
-.expert-card p {
-  color: #bdbdbd;
-  font-size: 0.95rem;
-  line-height: 1.5;
-}
-
-
 .entreprise h3 {
   margin-bottom: 10px;
   font-size: 1.4rem;
